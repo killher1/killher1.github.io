@@ -1,89 +1,53 @@
 <!DOCTYPE html>
-<html lang="zh">
-
-<head base target="_blank">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>index</title>标记
+<html>
+<head>
+  <title>Memorandum</title>
+  <link rel="stylesheet" href="style.css">
   <style>
     body {
-    margin: 0;
-    padding: 0;
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    font-family: 'Helvetica Neue', sans-serif;
-    background-attachment: fixed;
+      background-image: url(image/blob-Draft-1683991333894.png);
+      background-size: cover;
+      font-family: Helvetica Neue, Open Sans;
+      font-size: 16px;
+      color: black;
     }
-
-    h1 {
-      color: #ffffff;
-      margin-top: 50px;
-      margin-bottom: 0px;
-      text-align: center;
-      font-size: 40px;
-    }
-
-    nav {
+    
+    .nav {
       width: 200px;
-      height: 100%;
-      position: fixed;
-      top: 0;
-      left: 0;
-      background-color: rgba(0, 0, 0, 0.5);
-      overflow-y: auto;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      font-size: 18px;
-      color: #ffffff;
-      text-align: center;
-    }
-
-    li {
-      margin-top: 20px;
-    }
-
-    a {
-      display: block;
-      text-decoration: none;
-      color: #ffffff;
+      float: left;
+      background-color: purple;
+      color: white;
       padding: 10px;
     }
-
-    a:hover {
-      background-color: rgba(255, 255, 255, 0.1);
-      border-radius: 10px;
+    
+    .nav li {
+      list-style-type: none;
+      margin-bottom: 10px;
     }
-
-    section {
-      margin-left: 220px;
-      margin-right: 50px;
-      padding-top: 70px;
-      font-size: 24px;
-      color: #000000;
+    
+    .nav a {
+      text-decoration: none;
+      color: white;
     }
-
-    h2 {
-      margin-bottom: 30px;
+    
+    .content {
+      float: right;
+      width: 100%;
     }
   </style>
 </head>
-
 <body>
-  <h1>&nbsp;</h1>
-<nav>
+  <div class="nav">
     <ul>
-      <li><a href="link.html" target="_blank">链接</a></li>
-      <li><a href="file.html" target="_blank">文件</a></li>
-      <li><a href="music.html" target="_blank">音乐</a></li>
-      <li><a href="#">备用</a></li>
+      <li><a href="link.html">Links</a></li>
+      <li><a href="file.html">Files</a></li>
+      <li><a href="music.html">Music</a></li>
+      <li><a href="alternate.html">Alternate</a></li>
     </ul>
-</nav>
+  </div>
+  <div class="content">
+    <h1>Memorandum</h1>
+    <p>This is a memorandum website. You can use it to store links, files, music, and other content.</p>
+  </div>
 </body>
-
 </html>
